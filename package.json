@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "server": "json-server server.json -w -d 500",
+    "server": "json-server server.json -w -d 1000",
     "test": "vitest run",
     "test:watch": "vitest"
   },
